@@ -1,6 +1,6 @@
 module.exports = {
   siteMetadata: {
-    title: `Portfolio | Chung We Tseng Fang`,
+    title: `Chung We Tseng Fang`,
     description: `Developing awesome applications and products`,
     author: `Chung We Tseng Fang`,
   },
@@ -34,6 +34,7 @@ module.exports = {
         path: `./src/data/`,
       },
     },
+    `gatsby-plugin-sass`
     // this (optional) plugin enables Progressive Web App + Offline functionality
     // To learn more, visit: https://gatsby.dev/offline
     // `gatsby-plugin-offline`,
