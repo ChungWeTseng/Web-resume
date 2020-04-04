@@ -6,4 +6,4 @@
 
 // You can delete this file if you're not using it
 
-import './node_modules/bulma/bulma.sass'
+import './src/styles/bulma-custom.sass'
