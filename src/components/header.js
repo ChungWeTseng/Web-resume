@@ -20,7 +20,7 @@ const Header = ({ siteTitle }) => (
           <a className='navbar-item' href='#experience'> Experience </a>
           <a className='navbar-item' href='#education'> Education </a>
           <a className='navbar-item' href='#certifications'> Certifications </a>
-          <a className='navbar-item' href='#'> Skills & Languages </a>
+          <a className='navbar-item' href='#skills'> Skills & Languages </a>
           <a className='navbar-item' href='#'> Portfolio </a>
           <a className='navbar-item' href='#'> Contact </a>
         </div>
