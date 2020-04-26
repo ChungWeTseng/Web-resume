@@ -8,6 +8,7 @@ import Experiences from "../components/experiences"
 import Educations from "../components/educations"
 import Certifications from "../components/certifications"
 import Skills from "../components/skills"
+import Portfolio from "../components/portfolio"
 
 const IndexPage = () => (
   <Layout>
@@ -18,6 +19,7 @@ const IndexPage = () => (
     <Educations />
     <Certifications />
     <Skills />
+    <Portfolio />
   </Layout>
 )
 
