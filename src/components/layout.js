@@ -10,6 +10,7 @@ import PropTypes from "prop-types"
 import { useStaticQuery, graphql } from "gatsby"
 
 import '../styles/bulma-custom.sass'
+import '../styles/global.sass'
 import Header from "./header"
 
 const Layout = ({ children }) => {

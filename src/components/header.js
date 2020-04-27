@@ -1,12 +1,10 @@
-import PropTypes from 'prop-types'
 import React from 'react'
 
-const Header = ({ siteTitle }) => (
+const Header = () => (
   <header>
     <nav className='navbar is-fixed-top is-dark' role='navigation' aria-label='main-navigation'>
       <div className='navbar-brand'>
-        <a className='navbar-item' href='#'>
-          <img></img>
+        <a className='navbar-item' href='#intro'>
           <h1 className='has-text-weight-bold'> Chung We Tseng Fang </h1>
         </a>
         <a role='button' className='navbar-burger burger' aria-label='menu' aria-expanded='false' data-target='navbarBasicExample'>
@@ -28,13 +26,5 @@ const Header = ({ siteTitle }) => (
     </nav>
   </header>
 )
-
-Header.propTypes = {
-  siteTitle: PropTypes.string,
-}
-
-Header.defaultProps = {
-  siteTitle: ``,
-}
 
 export default Header
