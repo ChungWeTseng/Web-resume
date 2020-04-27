@@ -33,7 +33,7 @@ const Info = () => {
         <FontAwesomeIcon icon={faGithub} size="2x"/>
       </a>
 
-      <button className='button is-dark' style={link}> Download CV </button>
+      <a className='button is-dark' href='https://github.com/ChungWeTseng/CurriculumVitae/raw/master/cv.pdf'  style={link}> Download CV </a>
     </div>
   );
 }

@@ -20,7 +20,8 @@ const Intro = () => {
 
   const background = {
     backgroundImage: `url(${image})`,
-    backgroundSize: `cover`
+    backgroundSize: `cover`,
+    backgroundAttachment: 'fixed'
   }
 
   const button = {
@@ -30,11 +31,11 @@ const Intro = () => {
   }
 
   return (
-    <section className='hero is-primary is-fullheight' style={background} >
+    <section className='hero is-primary is-fullheight' style={background} id='intro' >
       <div className='hero-body'>
         <div className='container has-text-centered'>
           <div dangerouslySetInnerHTML={{ __html: html }} />
-          <button className='button is-primary' style={button}> Download my CV </button>
+          <a className='button is-primary' href='https://github.com/ChungWeTseng/CurriculumVitae/raw/master/cv.pdf' style={button}> Download my CV </a>
         </div>
       </div>
     </section>
