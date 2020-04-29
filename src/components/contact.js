@@ -142,7 +142,7 @@ const Contact = () => {
   return (
     <section className='section' id='contact'>
       <div className='container'>
-        <h1 className='title is-1'> Contact me</h1>
+        <h1 className='title is-1 is-size-2-mobile'> Contact me</h1>
         <div className='columns is-vcentered'>
           <div className='column'>
             <Form />

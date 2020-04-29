@@ -46,7 +46,7 @@ const Educations = () => {
   return (
     <section className='section' id='education'>
       <div className='container'>
-        <h1 className='title is-1'> Education </h1>
+        <h1 className='title is-1 is-size-2-mobile'> Education </h1>
         { educations.map((education, index) => {
           return <Education key={index} education={education} />
         }) }

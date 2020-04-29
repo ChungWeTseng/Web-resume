@@ -70,7 +70,7 @@ const Skills = () => {
   return (
     <section className='section' id='skills'>
       <div className='container'>
-        <h1 className='title is-1'> Skills and Languages </h1>
+        <h1 className='title is-1 is-size-2-mobile'> Skills and Languages </h1>
         { Object.entries(skills).map( ([category, skill], index) => {
           return <Skill key={index} category={category} skills={skill} />
         }) }

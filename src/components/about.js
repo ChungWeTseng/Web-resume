@@ -16,7 +16,7 @@ const About = () => {
   return (
     <section className='section'>
       <div className='container'>
-        <h1 className='title is-1'> About Me </h1>
+        <h1 className='title is-1 is-size-2-mobile'> About Me </h1>
         <div dangerouslySetInnerHTML={{ __html: description }} />
       </div>
     </section>

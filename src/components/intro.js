@@ -26,8 +26,8 @@ const Intro = () => {
 
   const button = {
     marginTop: '3em',
-    paddingLeft: '10em',
-    paddingRight: '10em'
+    paddingLeft: '15%',
+    paddingRight: '15%'
   }
 
   return (
@@ -35,7 +35,7 @@ const Intro = () => {
       <div className='hero-body'>
         <div className='container has-text-centered'>
           <div dangerouslySetInnerHTML={{ __html: html }} />
-          <a className='button is-primary' href='https://github.com/ChungWeTseng/CurriculumVitae/raw/master/cv.pdf' style={button}> Download my CV </a>
+          <a className='button is-primary is-fullwidth-mobile' href='https://github.com/ChungWeTseng/CurriculumVitae/raw/master/cv.pdf' style={button}> Download my CV </a>
         </div>
       </div>
     </section>
