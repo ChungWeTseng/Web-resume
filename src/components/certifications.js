@@ -34,7 +34,7 @@ const Certifications = () => {
   `)
 
   return (
-    <section className='section has-background-grey-lighter' id='certifications'>
+    <section className='section' id='certifications'>
       <div className='container'>
         <h1 className='title is-1 is-size-2-mobile'> Certifications </h1>
         { certifications.map((certification, index) => {

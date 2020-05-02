@@ -44,6 +44,7 @@ class Header extends Component {
           </div>
           <div className={`navbar-menu ${this.state.active ? 'is-active' : ''}`}>
             <div className='navbar-end'>
+              <a className='navbar-item' href='#about'> About Me </a>
               <a className='navbar-item' href='#experience'> Experience </a>
               <a className='navbar-item' href='#education'> Education </a>
               <a className='navbar-item' href='#certifications'> Certifications </a>

@@ -19,12 +19,12 @@ const Skill = props => {
           { skills.map((skill, index) => {
 
             const list =  <div key={index} className='column is-narrow'>
-                            <p className='is-italic has-text-grey-dark' style={font}> {skill.name} </p>
+                            <p className='is-italic' style={font}> {skill.name} </p>
                           </div>;
 
             const lang =  <div key={index} className='column is-narrow is-one-quarter-tablet'>
-                            <p className='title is-6 is-italic has-text-grey-dark' style={margin}> {skill.name} </p>
-                            <p className='has-text-grey' style={font}> {skill.proficiency} </p>
+                            <p className='title is-6 is-italic' style={margin}> {skill.name} </p>
+                            <p style={font}> {skill.proficiency} </p>
                           </div>;
 
             return  category === 'Languages' ? lang : list;

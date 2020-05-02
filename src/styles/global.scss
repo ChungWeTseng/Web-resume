@@ -1,0 +1,31 @@
+html{
+	scroll-behavior: smooth;
+}
+
+$black: #000000;
+$section1-bg: #c9dbba;
+$section2-bg: #dcdba8;
+$section3-bg: #bccbd2;
+
+section {
+	min-height: 100vh;
+	display: flex;
+	align-items: center;
+	color: $black;
+
+	.title {
+		color: $black;
+	}
+
+	&:nth-child(3n + 2) {
+		background-color: $section1-bg;
+	}
+
+	&:nth-child(3n + 0) {
+		background-color: $section2-bg;
+	}
+
+	&:nth-child(3n + 1) {
+		background-color: $section3-bg;
+	}
+}

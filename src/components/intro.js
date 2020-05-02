@@ -31,7 +31,7 @@ const Intro = () => {
   }
 
   return (
-    <section className='hero is-primary is-fullheight' style={background} id='intro' >
+    <section className='hero is-dark is-fullheight' style={background} id='intro' >
       <div className='hero-body'>
         <div className='container has-text-centered'>
           <div dangerouslySetInnerHTML={{ __html: html }} />

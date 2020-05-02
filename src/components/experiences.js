@@ -55,7 +55,7 @@ const Experiences = () => {
   `)
 
   return (
-    <section className='section has-background-grey-lighter' id='experience'>
+    <section className='section' id='experience'>
       <div className='container'>
         <h1 className='title is-1 is-size-2-mobile'> Experience </h1>
         { experiences.map((experience, index) => {

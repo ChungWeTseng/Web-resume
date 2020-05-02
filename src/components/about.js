@@ -14,7 +14,7 @@ const About = () => {
   `)
 
   return (
-    <section className='section'>
+    <section className='section' id='about'>
       <div className='container'>
         <h1 className='title is-1 is-size-2-mobile'> About Me </h1>
         <div dangerouslySetInnerHTML={{ __html: description }} />
