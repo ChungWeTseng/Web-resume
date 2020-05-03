@@ -4,16 +4,38 @@ $primary: #4169E1
 // Container size
 $gap: 75px
 
+// Fonts
+@font-face
+  font-family: Viga
+  src: url(../fonts/Viga-Regular.ttf)
+
+@font-face
+  font-family: Prompt
+  src: url(../fonts/Prompt-Regular.ttf)
+
+@font-face
+  font-family: AveriaSerifLibre
+  src: url(../fonts/AveriaSerifLibre-BoldItalic.ttf)
+
+$family-emphasized: Viga
+$family-primary: Prompt
+$family-secondary: AveriaSerifLibre
+$title-family: $family-secondary
+
 @import '../../node_modules/bulma/bulma.sass'
+
+.hero .title
+  font-family: $family-emphasized
 
 .container
   margin: 1em auto
   max-width: 52em
   padding: 0 .70em
-  font: 1.2em/1.62 sans-serif
+  font-size: 1.2em
+  line-height: 1.62
 
   +mobile
-    font: 1em/1.62 sans-serif
+    font-size: 1em
 
 p
   margin-bottom: 1em
