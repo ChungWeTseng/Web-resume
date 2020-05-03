@@ -1,5 +1,6 @@
 import React from 'react'
 import { useStaticQuery, graphql } from 'gatsby'
+import FadeInSection from './fadein-section'
 
 const Skill = props => {
   const skills = props.skills;
@@ -69,12 +70,12 @@ const Skills = () => {
 
   return (
     <section className='section' id='skills'>
-      <div className='container'>
+      <FadeInSection className='container'>
         <h1 className='title is-1 is-size-2-mobile'> Skills and Languages </h1>
         { Object.entries(skills).map( ([category, skill], index) => {
           return <Skill key={index} category={category} skills={skill} />
         }) }
-      </div>
+      </FadeInSection>
     </section>
   )
 }

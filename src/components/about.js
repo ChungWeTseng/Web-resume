@@ -1,5 +1,6 @@
 import React from 'react'
 import { useStaticQuery, graphql } from 'gatsby'
+import FadeInSection from './fadein-section'
 
 const About = () => {
 
@@ -15,10 +16,10 @@ const About = () => {
 
   return (
     <section className='section' id='about'>
-      <div className='container'>
+      <FadeInSection className='container'>
         <h1 className='title is-1 is-size-2-mobile'> About Me </h1>
         <div dangerouslySetInnerHTML={{ __html: description }} />
-      </div>
+      </FadeInSection>
     </section>
   )
 }

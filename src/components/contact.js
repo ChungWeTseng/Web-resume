@@ -3,6 +3,7 @@ import axios from 'axios';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import { faUser, faEnvelope, faAlignJustify } from '@fortawesome/free-solid-svg-icons'
 import { faLinkedin, faGithub } from '@fortawesome/free-brands-svg-icons'
+import FadeInSection from './fadein-section'
 
 const Info = () => {
   const contact = {
@@ -141,7 +142,7 @@ const Form = () => {
 const Contact = () => {
   return (
     <section className='section' id='contact'>
-      <div className='container'>
+      <FadeInSection className='container'>
         <h1 className='title is-1 is-size-2-mobile'> Contact me</h1>
         <div className='columns is-vcentered'>
           <div className='column'>
@@ -151,7 +152,7 @@ const Contact = () => {
             <Info />
           </div>
         </div>
-      </div>
+      </FadeInSection>
     </section>
   )
 }
