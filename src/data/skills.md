@@ -2,10 +2,11 @@
 skills:
   Programming:
     - name: Java
-    - name: JavaScript
+    - name: JavaScript'
+    - name: Node
     - name: Ruby
+    - name: TypeScript
     - name: C
-    - name: C++
     - name: Python
     - name: PHP
   Databases:
@@ -20,19 +21,21 @@ skills:
     - name: CSS
     - name: SASS
     - name: SLIM
+    - name: LESS
   Frameworks:
+    - name: React
     - name: Ruby on Rails
+    - name: Express JS
     - name: Spring
     - name: Laravel
     - name: Angular
-    - name: Middleman
     - name: Bootstrap
-    - name: Bulma
   Others:
     - name: Git
     - name: Docker
     - name: CI/CD
     - name: Google Cloud Platform
+    - name: Amazon Web Services
   Languages:
     - name: Spanish
       proficiency: Native

@@ -7,8 +7,8 @@ import FadeInSection from './fadein-section'
 
 const Info = () => {
   const contact = {
-    address: '2-5-3 Higashi-Ikebukuro ARDEN 106',
-    location: 'Toshima-ku Tokyo 170-0013 Japan',
+    address: '2-7-4 Kanamecho, Apartment 506',
+    location: 'Toshima-ku Tokyo 171-0043 Japan',
     phone: 'Tel: 080-7809-1945',
     email: 'chungwe1994@gmail.com',
     linkedin: 'https://www.linkedin.com/in/chung-we-tseng-fang/',
